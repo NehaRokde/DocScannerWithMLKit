@@ -33,3 +33,11 @@ It demonstrates how to build a focused, production-oriented Android feature usin
 - Creating multi-page PDF files
 - Building document-scanning features for productivity, finance, and business applications
 
+- 
+## 📱 App Screenshots
+<img width="200" alt="Document scanner screen" src="https://github.com/user-attachments/assets/e3862a3b-82f8-4104-b946-f1afa0f5ba7a" />
+<img width="200" alt="Screenshot_20261026_150846" src="https://github.com/user-attachments/assets/c720f559-5569-451b-8220-bfa95758e697" />
+<img width="200" alt="Screenshot_20261026_150857" src="https://github.com/user-attachments/assets/458cdeac-667d-47fb-b1f2-f66bc97864b8" />
+<img width="200" alt="Screenshot_20261026_150908" src="https://github.com/user-attachments/assets/14976910-a769-4264-b142-6d2f14eb5db4" />
+
+
