@@ -1,28 +1,35 @@
-# DocScannerWithMLKit
+# Android Document Scanner 📄
 
-An Android document scanning app built with Kotlin, Jetpack Compose, and Google ML Kit's Document Scanner.
+A modern Android application integrating **Google ML Kit Document Scanner API** to deliver a seamless document-scanning experience. The app allows users to scan documents, preview scanned images, and export multi-page documents as PDF files saved to internal storage.
 
-## Requirements
+## 🚀 Key Features
 
-- Android Studio
-- Android SDK
-- Android 7.0 (API 24) or newer device or emulator
+- **Google ML Kit Integration** — Leverages the ML Kit Document Scanner API for document capture, edge detection, cropping, and image processing.
+- **Configurable Scanning Options** — Customizes scanner settings, including page limits, gallery import, scanner UI, and output formats.
+- **Activity Result API** — Uses `ActivityResultLauncher` to launch the scanner and handle asynchronous results through a modern Android activity-result workflow.
+- **Image Preview** — Displays scanned document images with support for reviewing scan results.
+- **PDF Generation & Storage** — Saves scanned documents as PDF files in the app's internal storage.
+- **Modern Android Development** — Demonstrates Kotlin-based development, Android SDK integration, lifecycle-aware result handling, and file management.
+- **Error & Cancellation Handling** — Handles successful scans, user cancellation, and scanning failures gracefully.
 
-## Build and run
+## 🛠️ Tech Stack
 
-Open the project in Android Studio, allow Gradle to sync, select a device or emulator, and run the `app` configuration.
+- **Language:** Kotlin
+- **Platform:** Android
+- **Document Scanning:** Google ML Kit Document Scanner API
+- **Android APIs:** Activity Result API, ContentResolver, internal storage
+- **Build System:** Gradle
 
-To build the debug APK from the project root:
+## 🎯 What This Project Demonstrates
 
-```bash
-./gradlew assembleDebug
-```
+This project showcases practical Android engineering skills, including third-party SDK integration, configurable API usage, asynchronous activity-result handling, URI-based image access, PDF file management, and reliable handling of user-driven workflows.
 
-The APK is written to `app/build/outputs/apk/debug/app-debug.apk`.
+It demonstrates how to build a focused, production-oriented Android feature using modern platform APIs and Google's document-scanning capabilities.
 
-## Tech stack
+## 📌 Use Cases
 
-- Kotlin
-- Jetpack Compose and Material 3
-- Google ML Kit Document Scanner
-- Coil for displaying scanned images
+- Digitizing paper documents and receipts
+- Scanning forms and business documents
+- Creating multi-page PDF files
+- Building document-scanning features for productivity, finance, and business applications
+
